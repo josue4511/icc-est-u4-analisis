@@ -7,8 +7,8 @@ import models.Results;
 public class App {
     public static void main(String[] args) throws Exception {
         SortMethods metodos = new SortMethods();
-        int tamanio = 1000;
-        int[] array = generate ( 1000);
+        int tamanio = 5000000;
+        int[] array = generate ( tamanio);
         int[] arrayBubble = Arrays.copyOf(array, tamanio);
         int[] arrayBubbleAvz = Arrays.copyOf(array, tamanio);
 
